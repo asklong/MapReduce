@@ -9,3 +9,5 @@ as the mapper and/or the reducer.
 global variable in hadoop:
 http://blog.csdn.net/yanxiangtianji/article/details/24185385
 http://mlwhiz.com/blog/2015/05/09/Hadoop_Mapreduce_Streaming_Tricks_and_Techniques/
+What distributed cache does is that it provides this file to all the mapper nodes 
+so that you can use that file in any way across all your mappers. 
